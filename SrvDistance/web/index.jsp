@@ -10,6 +10,7 @@
   <head>
     <title>$Title$</title>
   </head>
+  <%--
   <body>
     <form action="" method="get" class="form-example">
       <div class="form">
@@ -26,6 +27,6 @@
         <input type="submit" value="Recherche">
       </div>
     </form>
-
+    --%>
   </body>
 </html>

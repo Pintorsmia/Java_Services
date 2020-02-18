@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SrvDistance:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/SrvDistance_war</output-path>
+    <root id="archive" name="SrvDistance_war.war">
+      <element id="artifact" artifact-name="SrvDistance:war exploded" />
+    </root>
+  </artifact>
+</component>

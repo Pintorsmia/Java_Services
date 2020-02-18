@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51fb8872-ade7-4aab-9b78-afd2d64c54d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../SrvDistance/src/JavaE/DistanceServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client_JSP/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client_JSP/.idea/artifacts/Client_JSP_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client_JSP/.idea/libraries/JAX_WS_Glassfish___JAX_WS_2_2_RI___Metro_1_X___JWSDP_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client_JSP/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client_JSP/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client_JSP/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client_JSP/Client_JSP.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client_JSP/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SrvDistance/.idea/artifacts/SrvDistance_war.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SrvDistance/out/artifacts/SrvDistance_war/SrvDistance_war.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SrvDistance/out/artifacts/SrvDistance_war_exploded/WEB-INF/classes/calcul/Distance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SrvDistance/out/artifacts/SrvDistance_war_exploded/WEB-INF/classes/example/HelloWorld.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SrvDistance/out/artifacts/SrvDistance_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SrvDistance/out/artifacts/SrvDistance_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SrvDistance/src/calcul/Distance.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SrvDistance/src/calcul/Distance.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +25,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1XyJyHZuahUGxD61WlwvLsxdqlj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -21,9 +42,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
@@ -97,7 +122,17 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="GlassFish Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="GlassFish Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -115,7 +150,7 @@
       <option name="presentableId" value="Default" />
       <updated>1582012653410</updated>
       <workItem from="1582012657652" duration="132000" />
-      <workItem from="1582020392707" duration="82000" />
+      <workItem from="1582020392707" duration="1054000" />
     </task>
     <servers />
   </component>
@@ -135,9 +170,33 @@
       <screen x="2880" y="0" width="2520" height="1575" />
     </state>
     <state x="3908" y="645" key="#com.intellij.ws.actions.GenerateJavaFromWsdlDialog/0.0.1920.1020/2880.0.2520.1575@2880.0.2520.1575" timestamp="1582012740727" />
-    <state x="3401" y="234" key="SettingsEditor" timestamp="1582012785972">
+    <state x="3811" y="398" key="FileChooserDialogImpl" timestamp="1582021804854">
       <screen x="2880" y="0" width="2520" height="1575" />
     </state>
-    <state x="3401" y="234" key="SettingsEditor/0.0.1920.1020/2880.0.2520.1575@2880.0.2520.1575" timestamp="1582012785972" />
+    <state x="3811" y="398" key="FileChooserDialogImpl/0.0.1920.1020/2880.0.2520.1575@2880.0.2520.1575" timestamp="1582021804854" />
+    <state width="1685" height="421" key="GridCell.Tab.0.bottom" timestamp="1582021641520">
+      <screen x="2880" y="0" width="2520" height="1575" />
+    </state>
+    <state width="1685" height="421" key="GridCell.Tab.0.bottom/0.0.1920.1020/2880.0.2520.1575@2880.0.2520.1575" timestamp="1582021641520" />
+    <state width="1685" height="421" key="GridCell.Tab.0.center" timestamp="1582021641519">
+      <screen x="2880" y="0" width="2520" height="1575" />
+    </state>
+    <state width="1685" height="421" key="GridCell.Tab.0.center/0.0.1920.1020/2880.0.2520.1575@2880.0.2520.1575" timestamp="1582021641519" />
+    <state width="1685" height="421" key="GridCell.Tab.0.left" timestamp="1582021641519">
+      <screen x="2880" y="0" width="2520" height="1575" />
+    </state>
+    <state width="1685" height="421" key="GridCell.Tab.0.left/0.0.1920.1020/2880.0.2520.1575@2880.0.2520.1575" timestamp="1582021641519" />
+    <state width="1685" height="421" key="GridCell.Tab.0.right" timestamp="1582021641520">
+      <screen x="2880" y="0" width="2520" height="1575" />
+    </state>
+    <state width="1685" height="421" key="GridCell.Tab.0.right/0.0.1920.1020/2880.0.2520.1575@2880.0.2520.1575" timestamp="1582021641520" />
+    <state x="3401" y="234" key="SettingsEditor" timestamp="1582021742960">
+      <screen x="2880" y="0" width="2520" height="1575" />
+    </state>
+    <state x="3401" y="234" key="SettingsEditor/0.0.1920.1020/2880.0.2520.1575@2880.0.2520.1575" timestamp="1582021742960" />
+    <state x="3224" y="191" key="new project wizard" timestamp="1582021821442">
+      <screen x="2880" y="0" width="2520" height="1575" />
+    </state>
+    <state x="3224" y="191" key="new project wizard/0.0.1920.1020/2880.0.2520.1575@2880.0.2520.1575" timestamp="1582021821442" />
   </component>
 </project>

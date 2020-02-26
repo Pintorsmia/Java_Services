@@ -1,11 +1,13 @@
 package calcul;
+import javafx.beans.binding.DoubleExpression;
+
 import javax.jws.WebMethod;
 import javax.jws.WebService;
 
 @WebService()
 public class Distance {
     @WebMethod
-    public Double Distance(Float lat1, Float lon1, Float lat2, Float lon2) {
+    public Double Distance(Double lat1, Double lon1, Double lat2, Double lon2) {
         if ((lat1 == lat2) && (lon1 == lon2)) {
             return 0.0;
         }

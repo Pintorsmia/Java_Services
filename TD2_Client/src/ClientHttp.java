@@ -21,6 +21,6 @@ public class ClientHttp {
 
     public static void main(String[] args) throws Exception
     {
-        System.out.println(getHTML("http://localhost:8080/TD2_Rest_war_exploded/API/helloworld"));
+        System.out.println(getHTML("http://localhost:8080/TD2_Rest_war_exploded/API/calcul/127,65"));
     }
 }

@@ -7,6 +7,9 @@
         <element id="directory" name="classes">
           <element id="module-output" name="TD2_Rest" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="javax.ws.rs-api-2.0" />
+        </element>
       </element>
     </root>
   </artifact>

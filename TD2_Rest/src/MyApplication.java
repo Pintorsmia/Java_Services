@@ -8,6 +8,7 @@ public class MyApplication extends Application{
         HashSet h = new HashSet<Class<?>>();
         h.add(Test.class);
         h.add( HelloWorld.class );
+        h.add(Calcul.class);
         return h;
     }
 }

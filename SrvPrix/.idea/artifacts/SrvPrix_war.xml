@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SrvPrix:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/SrvPrix_war</output-path>
+    <root id="archive" name="SrvPrix_war.war">
+      <element id="artifact" artifact-name="SrvPrix:war exploded" />
+    </root>
+  </artifact>
+</component>

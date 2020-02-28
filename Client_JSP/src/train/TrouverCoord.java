@@ -4,45 +4,48 @@ import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
-import
+
+import jdk.nashorn.internal.parser.JSONParser;
+import org.json.HTTP;
+import org.json.JSONArray;
 import org.json.JSONObject;
 
 public class TrouverCoord {
 
-    public TrouverCoord() throws IOException {
-        JSONObject json = new JSONObject();
+    public TrouverCoord() {
+    }
+
+    public double[] getCoord(String ville) throws IOException {
         StringBuilder result = new StringBuilder();
-        URL url = new URL("https://data.sncf.com/api/records/1.0/search//?dataset=referentiel-gares-voyageurs&q=annecy&lang=FR");
+        double[] coords = new double[2];
+        URL url = new URL("https://data.sncf.com/api/records/1.0/search//?dataset=referentiel-gares-voyageurs&q="+ville+"&lang=FR");
         HttpURLConnection conn = (HttpURLConnection) url.openConnection();
         conn.setRequestMethod("GET");
         try {
             InputStream in = new BufferedInputStream(conn.getInputStream());
-            System.out.println(readStream(in));
+            BufferedReader r = new BufferedReader(new InputStreamReader(in), 1000);
+            for (String line = r.readLine(); line != null; line = r.readLine()) {
+                result.append(line);
+            }
+            in.close();
+            JSONObject json = new JSONObject(result.toString());
+            System.out.println(json);
+            //verif qu'il y'a une gare dans la ville indique
+            if (json.getInt("nhits") > 0) {
+
+                double coordA = (double) json.getJSONArray("records").getJSONObject(0).getJSONObject("geometry").getJSONArray("coordinates").get(0);
+                double coordB = (double) json.getJSONArray("records").getJSONObject(0).getJSONObject("geometry").getJSONArray("coordinates").get(1);
+                coords[0] = coordA;
+                coords[1] = coordB;
+                System.out.println(coordA);
+                System.out.println("SALUT");
+            } else {
+                System.out.println("Pas de gares dans cette ville");
+            }
         } finally {
             conn.disconnect();
+            return coords;
         }
-
-
-
-        /*
-        BufferedReader rd = new BufferedReader(new InputStreamReader(conn.getInputStream()));
-        String line;
-        while ((line = rd.readLine()) != null) {
-            result.append(line);
-        }
-        rd.close();
-        System.out.println(result.toString());*/
     }
-
-    private String readStream(InputStream is) throws IOException {
-
-        StringBuilder sb = new StringBuilder();
-        BufferedReader r = new BufferedReader(new InputStreamReader(is),1000);
-        for (String line = r.readLine(); line != null; line =r.readLine()){
-            sb.append(line);
-        }
-        is.close();
-        return sb.toString();
-    }
-
 }
+

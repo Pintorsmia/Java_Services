@@ -19,5 +19,11 @@
         devise:<input type="text" name="devise"/><br/>
         <input type="submit" value="Calculer"/>
       </form>
+
+      <form action="/Client_JSP_war_exploded/ServletSNCF" method="post">
+        LatA:<input type="text" name="ville"/><br/>
+        devise:<input type="text" name="devise"/><br/>
+        <input type="submit" value="Calculer"/>
+      </form>
   </body>
 </html>

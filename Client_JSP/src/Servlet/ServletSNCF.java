@@ -10,6 +10,8 @@ import java.io.IOException;
 @WebServlet(name = "ServletSNCF")
 public class ServletSNCF extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String ville = request.getParameter("ville");
+        String devise = request.getParameter("devise");
 
     }
 

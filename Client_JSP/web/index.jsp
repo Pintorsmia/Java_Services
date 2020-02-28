@@ -11,11 +11,12 @@
     <title>$Title$</title>
   </head>
   <body>
-      <form action="/Client_JSP_war_exploded/servletCoord" method="post">
+      <form action="/Client_JSP_war_exploded/ServletTrain" method="post">
         LatA:<input type="text" name="latA"/><br/>
         LonA:<input type="text" name="lonA"/><br/>
         LatB:<input type="text" name="latB"/><br/>
         LonB:<input type="text" name="lonB"/><br/>
+        devise:<input type="text" name="devise"/><br/>
         <input type="submit" value="Calculer"/>
       </form>
   </body>

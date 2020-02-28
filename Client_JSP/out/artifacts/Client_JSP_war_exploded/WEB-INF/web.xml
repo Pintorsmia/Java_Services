@@ -5,14 +5,14 @@
          version="4.0">
 
     <servlet>
-        <servlet-name>RecupCoord</servlet-name>
-        <servlet-class>Servlet.RecupCoord</servlet-class>
+        <servlet-name>ServletTraind</servlet-name>
+        <servlet-class>Servlet.ServletTrain</servlet-class>
     </servlet>
 
 
 
     <servlet-mapping>
-        <servlet-name>RecupCoord</servlet-name>
-        <url-pattern>/servletCoord</url-pattern>
+        <servlet-name>ServletTraind</servlet-name>
+        <url-pattern>/ServletTrain</url-pattern>
     </servlet-mapping>
 </web-app>

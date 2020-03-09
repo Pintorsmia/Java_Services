@@ -1,16 +1,13 @@
 package Servlet;
 
 import calcul.DistanceService;
-
+import org.json.JSONObject;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.io.PrintWriter;
+import java.io.*;
 import java.math.RoundingMode;
 import java.net.HttpURLConnection;
 import java.net.URL;
@@ -21,23 +18,36 @@ import java.text.DecimalFormat;
 public class ServletTrain extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html");
-
+        PrintWriter out = response.getWriter();
         //Methode pour arrondir
         DecimalFormat df = new DecimalFormat("#.##");
         df.setRoundingMode(RoundingMode.HALF_UP);
         // Recuperation des parametres
+        /*
         Double latA = Double.parseDouble(request.getParameter("latA"));
         Double lonA= Double.parseDouble(request.getParameter("lonA"));
         Double latB = Double.parseDouble(request.getParameter("latB"));
         Double lonB = Double.parseDouble(request.getParameter("lonB"));
-        String devise = request.getParameter("devise");
+        */
 
+        String devise = request.getParameter("devise");
+        String villeDpt = request.getParameter("villeDpt");
+        String villeDst = request.getParameter("villeDst");
+
+
+        double [] coordDpt = this.getCoord(villeDpt,out);
+        double [] coordDst = this.getCoord(villeDst,out);
+        double latA = coordDpt[0];
+        double lonA = coordDpt[1];
+        double latB = coordDst[0];
+        double lonB = coordDst[1];
 
         calcul.Distance service = new DistanceService().getDistancePort();
-        Double distance = service.distance(latA,lonA,latB,lonB);
+        double distance = service.distance(latA,lonA,latB,lonB);
 
 
-        PrintWriter out = response.getWriter();
+
+        out.print(latA+"  " + lonA + "   " + latB + "    " + lonB);
         out.print("Resultat = "+df.format((double) distance)+" km");
 
         //Requetes REST vers mon services de calcul des prix
@@ -77,6 +87,42 @@ public class ServletTrain extends HttpServlet {
     }
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+
+    }
+
+    public double[] getCoord(String ville, PrintWriter out) throws IOException {
+
+        StringBuilder result = new StringBuilder();
+        double[] coords = new double[2];
+        URL url = new URL("https://data.sncf.com/api/records/1.0/search//?dataset=referentiel-gares-voyageurs&q="+ville+"&lang=FR");
+        HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+        conn.setRequestMethod("GET");
+            InputStream in = new BufferedInputStream(conn.getInputStream());
+            BufferedReader r = new BufferedReader(new InputStreamReader(in), 1000);
+            for (String line = r.readLine(); line != null; line = r.readLine()) {
+                result.append(line);
+            }
+            in.close();
+            JSONObject json = new JSONObject(result.toString());
+            System.out.println(json);
+            //verif qu'il y'a une gare dans la ville indique
+            if (json.getInt("nhits") > 0) {
+
+                double coordA = (double) json.getJSONArray("records").getJSONObject(0).getJSONObject("geometry").getJSONArray("coordinates").get(0);
+                double coordB = (double) json.getJSONArray("records").getJSONObject(0).getJSONObject("geometry").getJSONArray("coordinates").get(1);
+                coords[1] = coordA;
+                coords[0] = coordB;
+                out.print("TTTTEEEESSSST");
+                out.print(coordA);
+                out.print("SALUT");
+            } else {
+                System.out.println("Pas de gares dans cette ville");
+            }
+
+            conn.disconnect();
+
+
+            return coords;
 
     }
 }

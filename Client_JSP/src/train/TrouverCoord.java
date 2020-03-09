@@ -35,8 +35,8 @@ public class TrouverCoord {
 
                 double coordA = (double) json.getJSONArray("records").getJSONObject(0).getJSONObject("geometry").getJSONArray("coordinates").get(0);
                 double coordB = (double) json.getJSONArray("records").getJSONObject(0).getJSONObject("geometry").getJSONArray("coordinates").get(1);
-                coords[0] = coordA;
-                coords[1] = coordB;
+                coords[1] = coordA;
+                coords[0] = coordB;
                 System.out.println(coordA);
                 System.out.println("SALUT");
             } else {

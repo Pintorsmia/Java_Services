@@ -38,7 +38,6 @@ public class TrouverCoord {
                 coords[1] = coordA;
                 coords[0] = coordB;
                 System.out.println(coordA);
-                System.out.println("SALUT");
             } else {
                 System.out.println("Pas de gares dans cette ville");
             }

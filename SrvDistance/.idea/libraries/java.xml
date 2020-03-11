@@ -1,0 +1,71 @@
+<component name="libraryTable">
+  <library name="java">
+    <CLASSES />
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/eclipselink_jaxb/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/eclipselink_jaxb/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/eclipselink_sdo/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/eclipselink_sdo/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/httpspi-servlet/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/jaxws-maven-plugin/src/it/wsgen/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/jaxws-maven-plugin/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/jaxws-maven-plugin/src/test/it/jaxwscommons-103/lib/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/jaxws-maven-plugin/src/test/it/jaxwscommons-3/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/jaxws-maven-plugin/src/test/it/jaxwscommons-43/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/jaxws-maven-plugin/src/test/it/jaxwscommons-81/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/jaxws-maven-plugin/src/test/it/jaxwscommons-81/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/jaxws-maven-plugin/src/test/it/jaxwscommons-87/child/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/jaxws-maven-plugin/src/test/it/jaxwscommons-91/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/jaxws-maven-plugin/src/test/it/jaxwscommons-95/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/jaxws-maven-plugin/src/test/it/wsgen217/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/jaxws-maven-plugin/src/test/it/wsgen217/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/jaxws-maven-plugin/src/test/it/wsgen22/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/jaxws-maven-plugin/src/test/it/wsgen22/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/jaxws-maven-plugin/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/rt-fi/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/rt/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/rt/src/main/java-mr/9" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/rt/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/samples/src/main/samples" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/samples/src/main/samples/annotations/src" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/samples/src/main/samples/async/src" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/samples/src/main/samples/asyncprovider/src" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/samples/src/main/samples/asyncservice/src" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/samples/src/main/samples/catalog/src" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/samples/src/main/samples/dispatch/src" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/samples/src/main/samples/dual_binding/src" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/samples/src/main/samples/fromjava-soap12/src" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/samples/src/main/samples/fromjava/src" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/samples/src/main/samples/fromjavahandler/src" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/samples/src/main/samples/fromwsdl-soap12/src" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/samples/src/main/samples/fromwsdl/src" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/samples/src/main/samples/fromwsdl_secure/src" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/samples/src/main/samples/fromwsdlhandler/src" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/samples/src/main/samples/inline-customize/src" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/samples/src/main/samples/large_upload/src" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/samples/src/main/samples/mime-large/src" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/samples/src/main/samples/mime/src" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/samples/src/main/samples/mtom-large/src" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/samples/src/main/samples/mtom-soap12/src" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/samples/src/main/samples/mtom/src" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/samples/src/main/samples/optional_webxml/src" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/samples/src/main/samples/provider/src" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/samples/src/main/samples/restful/src" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/samples/src/main/samples/stateful/src" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/samples/src/main/samples/supplychain/src" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/servlet/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/tests/unit-rearch/src" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/tests/unit/no-harness/SHARED/customized/epr/w3cepr_6675760/work" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/tests/unit/no-harness/SHARED/customized/fromjava/innerclass/work" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/tests/unit/no-harness/SHARED/src" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/tests/unit/testcases" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/tools/wscompile/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/tools/wscompile/src/main/java-mr" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/tools/wscompile/src/test/java" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/tools/wscompile/src/test/resources" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/transports/async-client-transport/src/main/java" />
+      <root url="file://$PROJECT_DIR$/../../metro-jax-ws-master/jaxws-ri/transports/local/src/main/java" />
+    </SOURCES>
+  </library>
+</component>

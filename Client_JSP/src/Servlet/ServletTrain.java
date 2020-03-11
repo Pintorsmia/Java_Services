@@ -47,24 +47,26 @@ public class ServletTrain extends HttpServlet {
 
 
 
-        out.print(latA+"  " + lonA + "   " + latB + "    " + lonB);
+       // out.print(latA+"  " + lonA + "   " + latB + "    " + lonB);
         out.print("Resultat = "+df.format((double) distance)+" km");
 
         //Requetes REST vers mon services de calcul des prix
 
         if (distance !=0) {
+
             StringBuilder SB = new StringBuilder();
-            URL url = new URL("http://item-s83074:8080/SrvPrix_war3315487828590068401/API/calcul/" + distance + "," + devise);
+            URL url = new URL("http://127.0.0.1:8080/SrvPrix2_war/API/calcul/" + distance + "," + devise);
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             conn.setRequestMethod("GET");
             BufferedReader rd = new BufferedReader(new InputStreamReader(conn.getInputStream()));
+
             String line;
             while ((line = rd.readLine()) != null) {
                 SB.append(line);
             }
             rd.close();
-            out.write(df.format(SB.toString()));
-
+            //out.write(df.format(SB.toString()));
+            out.write(" " + SB.toString());
             //Il faut modifier le service afin qu'il fasse l'arrondi avant de l'envoyer
 
         }
@@ -103,6 +105,7 @@ public class ServletTrain extends HttpServlet {
                 result.append(line);
             }
             in.close();
+            r.close();
             JSONObject json = new JSONObject(result.toString());
             System.out.println(json);
             //verif qu'il y'a une gare dans la ville indique
@@ -112,16 +115,13 @@ public class ServletTrain extends HttpServlet {
                 double coordB = (double) json.getJSONArray("records").getJSONObject(0).getJSONObject("geometry").getJSONArray("coordinates").get(1);
                 coords[1] = coordA;
                 coords[0] = coordB;
-                out.print("TTTTEEEESSSST");
-                out.print(coordA);
-                out.print("SALUT");
+
+
             } else {
                 System.out.println("Pas de gares dans cette ville");
             }
 
             conn.disconnect();
-
-
             return coords;
 
     }

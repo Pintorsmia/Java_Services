@@ -20,7 +20,7 @@
         <input type="submit" value="Calculer"/>
       </form>
 -->
-      <form action="/Client_JSP_war_exploded/ServletTrain" method="post">
+      <form action="/Client_JSP_war/ServletTrain" method="post">
         Départ:<input type="text" name="villeDpt"/><br/>
         Déstination:<input type="text" name="villeDst"/><br/>
         devise:<input type="text" name="devise"/><br/>

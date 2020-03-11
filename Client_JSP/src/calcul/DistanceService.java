@@ -17,7 +17,7 @@ import javax.xml.ws.WebServiceFeature;
  * Generated source version: 2.2
  * 
  */
-@WebServiceClient(name = "DistanceService", targetNamespace = "http://calcul/", wsdlLocation = "http://item-s83074:8080/SrvDistance_war506034448524074634/services/Distance?wsdl")
+@WebServiceClient(name = "DistanceService", targetNamespace = "http://calcul/", wsdlLocation = "http://localhost:8080/SrvDistance2_war/Distance?wsdl")
 public class DistanceService
     extends Service
 {
@@ -30,7 +30,7 @@ public class DistanceService
         URL url = null;
         WebServiceException e = null;
         try {
-            url = new URL("http://item-s83074:8080/SrvDistance_war506034448524074634/services/Distance?wsdl");
+            url = new URL("http://localhost:8080/SrvDistance2_war/Distance?wsdl");
         } catch (MalformedURLException ex) {
             e = new WebServiceException(ex);
         }

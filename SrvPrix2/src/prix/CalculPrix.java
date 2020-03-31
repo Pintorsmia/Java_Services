@@ -1,9 +1,11 @@
 package prix;
 
+
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
+
 import java.text.DecimalFormat;
 
 @Path("/calcul")
@@ -22,7 +24,7 @@ public class CalculPrix {
 
 
         @GET
-        @Path("{distance},{devise}")
+        @Path("{distance}/{devise}")
         @Produces("text/plain")
         public String getCalcul(@PathParam("distance") double distance, @PathParam("devise") String devise) {
             DecimalFormat df = new DecimalFormat("#.##");
@@ -49,6 +51,6 @@ public class CalculPrix {
             return (df.format(result)) + " " + devise ;
 
 
-// Exemple d'url --> http://item-s83074:8080/SrvPrix2_war/API/calcul/12,euro
+// Exemple d'url --> http://item-s83074:8080/SrvPrix2_war/API/calcul/12/euro
     }
 }

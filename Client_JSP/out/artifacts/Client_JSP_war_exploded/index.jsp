@@ -22,7 +22,7 @@
 -->
       <form action="/Client_JSP_war/ServletTrain" method="post">
         Départ:<input type="text" name="villeDpt"/><br/>
-        Déstination:<input type="text" name="villeDst"/><br/>
+        Destination:<input type="text" name="villeDst"/><br/>
         devise:<input type="text" name="devise"/><br/>
         <input type="submit" value="Calculer"/>
       </form>

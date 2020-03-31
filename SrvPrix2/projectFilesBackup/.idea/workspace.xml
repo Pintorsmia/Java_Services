@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SrvPrix2:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4d035277-908a-4e1a-91a3-10dd7703d0f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Client_JSP/src/calcul/Distance7.wsdl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Client_JSP/web/WEB-INF/appengine-web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SrvDistance2/web/WEB-INF/appengine-web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/appengine-web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client_JSP/out/artifacts/Client_JSP_war/Client_JSP_war.war" beforeDir="false" afterPath="$PROJECT_DIR$/../Client_JSP/out/artifacts/Client_JSP_war/Client_JSP_war.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client_JSP/out/artifacts/Client_JSP_war_exploded/WEB-INF/classes/calcul/Distance.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client_JSP/out/artifacts/Client_JSP_war_exploded/WEB-INF/classes/calcul/Distance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client_JSP/out/artifacts/Client_JSP_war_exploded/WEB-INF/classes/calcul/DistanceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client_JSP/out/artifacts/Client_JSP_war_exploded/WEB-INF/classes/calcul/DistanceService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client_JSP/out/artifacts/Client_JSP_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Client_JSP/out/artifacts/Client_JSP_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client_JSP/out/production/Client_JSP/calcul/Distance.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client_JSP/out/production/Client_JSP/calcul/Distance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client_JSP/out/production/Client_JSP/calcul/DistanceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client_JSP/out/production/Client_JSP/calcul/DistanceService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client_JSP/out/production/Client_JSP/train/TrouverPrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client_JSP/out/production/Client_JSP/train/TrouverPrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client_JSP/src/calcul/Distance.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client_JSP/src/calcul/Distance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client_JSP/src/calcul/Distance.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client_JSP/src/calcul/Distance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client_JSP/src/calcul/DistanceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Client_JSP/src/calcul/DistanceService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client_JSP/src/calcul/DistanceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client_JSP/src/calcul/DistanceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client_JSP/src/train/TrouverPrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Client_JSP/src/train/TrouverPrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Client_JSP/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Client_JSP/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SrvDistance2/SrvDistance2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SrvDistance2/SrvDistance2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SrvDistance2/out/artifacts/SrvDistance2_war/SrvDistance2_war.war" beforeDir="false" afterPath="$PROJECT_DIR$/../SrvDistance2/out/artifacts/SrvDistance2_war/SrvDistance2_war.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SrvPrix2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SrvPrix2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/SrvPrix2_war/SrvPrix2_war.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/SrvPrix2_war/SrvPrix2_war.war" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="dummy://restClient/response5.html" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\djanin\Documents\Projet_Java\Java_Services\SrvPrix2\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YzGicn685tLtDc5EwciaqrXh8F" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15527344" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="RestAPP" />
+      <recent name="prix" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\djanin\Documents\Projet_Java\Java_Services\SrvPrix2\web\WEB-INF" />
+    </key>
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8080" />
+          <option name="urlPath" value="/resources" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="*/*" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="parametersEnabled" value="true" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Google App Engine Deployment.Projet_Prix">
+    <configuration name="JBoss 18.0.1.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 18.0.1.Final" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/SrvPrix2_war_exploded" />
+      <deployment>
+        <artifact name="SrvPrix2:war exploded">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="SERVER" value="" />
+        <option name="BINDING_SET_NAME" value="" />
+        <option name="DOMAIN" value="false" />
+        <option name="SERVER_GROUP" value="" />
+        <option name="USERNAME" value="" />
+        <option name="CREDENTIAL_ALIAS" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="JBoss" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="59832" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SrvPrix2:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="Projet_Prix" type="google-app-engine-deploy" factoryName="Google App Engine Deployment" server-name="Google App Engine">
+      <deployment type="artifact" name="SrvPrix2:war exploded" />
+      <method v="2">
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="SrvPrix2:war" />
+          <artifact name="SrvPrix2:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Google App Engine Deployment.Projet_Prix" />
+      <item itemvalue="JBoss Server.JBoss 18.0.1.Final" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Google App Engine" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4d035277-908a-4e1a-91a3-10dd7703d0f5" name="Default Changelist" comment="" />
+      <created>1583938137396</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583938137396</updated>
+      <workItem from="1583938139458" duration="639000" />
+      <workItem from="1583938974283" duration="1374000" />
+      <workItem from="1585057806104" duration="2936000" />
+      <workItem from="1585580541659" duration="2040000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="323" key="#BuildArtifactsBeforeRunChooser" timestamp="1585580597240">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="323" key="#BuildArtifactsBeforeRunChooser/-1920.0.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1585580597240" />
+    <state x="552" y="177" key="#Project_Structure" timestamp="1583938168146">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="177" key="#Project_Structure/-1920.0.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1583938168146" />
+    <state x="414" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585581337379">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="173" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1585581337379" />
+    <state x="793" y="393" width="856" height="253" key="#com.intellij.ws.actions.GenerateJavaFromWsdlAction$1" timestamp="1585582417706">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="793" y="393" width="856" height="253" key="#com.intellij.ws.actions.GenerateJavaFromWsdlAction$1/-1920.0.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1585582417706" />
+    <state x="740" y="273" key="FileChooserDialogImpl" timestamp="1585057819083">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="273" key="FileChooserDialogImpl/-1920.0.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1585057819083" />
+    <state x="440" y="93" key="SettingsEditor" timestamp="1585581305855">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="93" key="SettingsEditor/-1920.0.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1585581305855" />
+  </component>
+</project>

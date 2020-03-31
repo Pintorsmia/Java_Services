@@ -6,6 +6,7 @@ import javax.jws.WebParam;
 import javax.jws.WebResult;
 import javax.jws.WebService;
 import javax.xml.bind.annotation.XmlSeeAlso;
+import javax.xml.ws.Action;
 import javax.xml.ws.RequestWrapper;
 import javax.xml.ws.ResponseWrapper;
 
@@ -36,6 +37,7 @@ public interface Distance {
     @WebResult(targetNamespace = "")
     @RequestWrapper(localName = "Distance", targetNamespace = "http://calcul/", className = "calcul.Distance_Type")
     @ResponseWrapper(localName = "DistanceResponse", targetNamespace = "http://calcul/", className = "calcul.DistanceResponse")
+    @Action(input = "http://calcul/Distance/DistanceRequest", output = "http://calcul/Distance/DistanceResponse")
     public Double distance(
         @WebParam(name = "arg0", targetNamespace = "")
         Double arg0,

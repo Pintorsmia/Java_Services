@@ -11,7 +11,7 @@ public class TrouverPrix {
 
     public static void main(String[] args) throws IOException {
             StringBuilder result = new StringBuilder();
-            URL url = new URL("http://127.0.0.1:8080/SrvPrix2_war/API/calcul/12,euro");
+            URL url = new URL("https://prix-projetusmb.appspot.com/API/calcul/12,euro");
             HttpURLConnection conn = (HttpURLConnection) url.openConnection();
             conn.setRequestMethod("GET");
             BufferedReader rd = new BufferedReader(new InputStreamReader(conn.getInputStream()));

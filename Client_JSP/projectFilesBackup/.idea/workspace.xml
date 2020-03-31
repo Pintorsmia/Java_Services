@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Client_JSP:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d325436e-7ee2-46d7-b75c-69d068bc4a13" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/calcul/Distance7.wsdl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/appengine-web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SrvDistance2/web/WEB-INF/appengine-web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SrvPrix2/web/WEB-INF/appengine-web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Client_JSP_war/Client_JSP_war.war" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Client_JSP_war/Client_JSP_war.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Client_JSP_war_exploded/WEB-INF/classes/calcul/Distance.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Client_JSP_war_exploded/WEB-INF/classes/calcul/Distance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Client_JSP_war_exploded/WEB-INF/classes/calcul/DistanceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Client_JSP_war_exploded/WEB-INF/classes/calcul/DistanceService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/Client_JSP_war_exploded/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/Client_JSP_war_exploded/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Client_JSP/calcul/Distance.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Client_JSP/calcul/Distance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Client_JSP/calcul/DistanceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Client_JSP/calcul/DistanceService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Client_JSP/train/TrouverPrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Client_JSP/train/TrouverPrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/calcul/Distance.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/calcul/Distance.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/calcul/Distance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/calcul/Distance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/calcul/DistanceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/calcul/DistanceService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/calcul/DistanceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/calcul/DistanceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/train/TrouverPrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/train/TrouverPrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SrvDistance2/SrvDistance2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SrvDistance2/SrvDistance2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SrvDistance2/out/artifacts/SrvDistance2_war/SrvDistance2_war.war" beforeDir="false" afterPath="$PROJECT_DIR$/../SrvDistance2/out/artifacts/SrvDistance2_war/SrvDistance2_war.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SrvPrix2/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../SrvPrix2/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SrvPrix2/SrvPrix2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../SrvPrix2/SrvPrix2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SrvPrix2/out/artifacts/SrvPrix2_war/SrvPrix2_war.war" beforeDir="false" afterPath="$PROJECT_DIR$/../SrvPrix2/out/artifacts/SrvPrix2_war/SrvPrix2_war.war" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\djanin\Documents\Projet_Java\Java_Services\Client_JSP\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1XycYPY6bUeyKZhbJLK5GiBeR44" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SrvDistance2" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15527344" />
+    <property name="project.structure.side.proportion" value="0.25694445" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager" selected="Application.TrouverPrix">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="train.Main" />
+      <module name="Client_JSP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="train.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrouverDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="train.TrouverDistance" />
+      <module name="Client_JSP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="train.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrouverPrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="train.TrouverPrix" />
+      <module name="Client_JSP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="train.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TrouverTrain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="train.TrouverTrain" />
+      <module name="Client_JSP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="train.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GlassFish 4.0.0" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 4.0.0" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Client_JSP_war_exploded/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Client_JSP:war exploded">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="DOMAIN" value="domain1" />
+        <option name="PRESERVE" value="false" />
+        <option name="COMPATIBILITY" value="false" />
+        <option name="VIRTUAL_SERVER" />
+        <option name="USERNAME" value="admin" />
+        <option name="CREDENTIAL_ALIAS" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="GlassFish" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="9009" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Client_JSP:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="GlassFish 5.0.0" type="GlassfishConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="GlassFish 5.0.0" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Client_JSP_war_exploded" />
+      <deployment>
+        <artifact name="Client_JSP:war exploded">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="DOMAIN" value="domain1" />
+        <option name="PRESERVE" value="false" />
+        <option name="COMPATIBILITY" value="false" />
+        <option name="VIRTUAL_SERVER" />
+        <option name="USERNAME" value="admin" />
+        <option name="CREDENTIAL_ALIAS" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="GlassFish" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="9009" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Client_JSP:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="WildFly 18" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 18.0.1.Final" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/Client_JSP_war/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Client_JSP:war">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="SERVER" />
+        <option name="BINDING_SET_NAME" value="" />
+        <option name="DOMAIN" value="false" />
+        <option name="SERVER_GROUP" />
+        <option name="USERNAME" value="" />
+        <option name="CREDENTIAL_ALIAS" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="JBoss" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="56824" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Client_JSP:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="Google App Engine Deployment" type="google-app-engine-deploy" factoryName="Google App Engine Deployment" server-name="Google App Engine">
+      <deployment type="artifact" name="Client_JSP:war exploded" />
+      <method v="2">
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Client_JSP:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.TrouverDistance" />
+      <item itemvalue="Application.TrouverPrix" />
+      <item itemvalue="GlassFish Server.GlassFish 5.0.0" />
+      <item itemvalue="GlassFish Server.GlassFish 4.0.0" />
+      <item itemvalue="JBoss Server.WildFly 18" />
+      <item itemvalue="Application.TrouverTrain" />
+      <item itemvalue="Google App Engine Deployment.Google App Engine Deployment" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TrouverPrix" />
+        <item itemvalue="Application.TrouverTrain" />
+        <item itemvalue="Application.TrouverDistance" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="GlassFish Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="JBoss Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="JBoss Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Google App Engine" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d325436e-7ee2-46d7-b75c-69d068bc4a13" name="Default Changelist" comment="" />
+      <created>1582021821567</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582021821567</updated>
+      <workItem from="1582021825645" duration="1734000" />
+      <workItem from="1582707205976" duration="1728000" />
+      <workItem from="1582799024838" duration="6968000" />
+      <workItem from="1582881738382" duration="16635000" />
+      <workItem from="1582905390213" duration="1573000" />
+      <workItem from="1583759179763" duration="3921000" />
+      <workItem from="1583766355495" duration="2448000" />
+      <workItem from="1583769188828" duration="1759000" />
+      <workItem from="1583923916219" duration="10254000" />
+      <workItem from="1585057907766" duration="8704000" />
+      <workItem from="1585549725097" duration="23609000" />
+    </task>
+    <task id="LOCAL-00001" summary="Client Créé">
+      <created>1582022133115</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582022133115</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Ajout de la librairie &quot;Json&quot;">
+      <created>1582883453346</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582883453346</updated>
+    </task>
+    <task id="LOCAL-00003" summary="TrouverCoord OK retourne un tableau de double (coord) pour une ville">
+      <created>1582892355085</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582892355085</updated>
+    </task>
+    <task id="LOCAL-00004" summary="TrouverCoord OK retourne un tableau de double (coord) pour une ville">
+      <created>1583767365697</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583767365697</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Trouver les trajet OK + Google engine">
+      <created>1585567654298</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1585567654298</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Client Créé" />
+    <MESSAGE value="Ajout de la librairie &quot;Json&quot;" />
+    <MESSAGE value="TrouverCoord OK retourne un tableau de double (coord) pour une ville" />
+    <MESSAGE value="Trouver les trajet OK + Google engine" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trouver les trajet OK + Google engine" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="349" y="0" key="#Glassfish_Server" timestamp="1583763662640">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state x="349" y="0" key="#Glassfish_Server/0.0.1920.1020@0.0.1920.1020" timestamp="1583763662640" />
+    <state x="552" y="177" key="#Google_App_Engine" timestamp="1585576572763">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="177" key="#Google_App_Engine/-1920.0.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1585576572763" />
+    <state x="679" y="252" key="#Google_App_Engine_Deployment" timestamp="1585567807003">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="679" y="252" key="#Google_App_Engine_Deployment/-1920.0.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1585567807003" />
+    <state x="552" y="177" width="816" height="734" key="#Intentions" timestamp="1582885468997">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="177" width="816" height="734" key="#Intentions/-1920.0.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1582885468997" />
+    <state x="578" y="225" key="#JBoss_Server" timestamp="1585059607194">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="578" y="225" key="#JBoss_Server/-1920.0.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1585059607194" />
+    <state x="540" y="136" key="#Resin_Server" timestamp="1583931447518">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="136" key="#Resin_Server/-1920.0.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1583931447518" />
+    <state x="552" y="177" key="#Servers" timestamp="1583933154557">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="177" key="#Servers/-1920.0.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1583933154557" />
+    <state x="402" y="133" width="1169" height="853" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585578830051">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="402" y="133" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1585578830051" />
+    <state x="402" y="130" width="1169" height="853" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1020@0.0.1920.1020" timestamp="1583769259926" />
+    <state x="765" y="234" key="#com.intellij.ide.util.MemberChooser" timestamp="1585558875084">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="234" key="#com.intellij.ide.util.MemberChooser/-1920.0.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1585558875084" />
+    <state x="349" y="0" width="1270" height="725" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1585061555771">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="349" y="0" width="1270" height="725" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/-1920.0.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1585061555771" />
+    <state x="349" y="0" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1920.1020@0.0.1920.1020" timestamp="1583763701886" />
+    <state x="690" y="273" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1582900544031">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="273" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/-1920.0.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1582900544031" />
+    <state x="779" y="414" width="906" height="218" key="#com.intellij.ws.actions.GenerateJavaFromWsdlAction$1" timestamp="1585580972689">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="779" y="414" width="906" height="218" key="#com.intellij.ws.actions.GenerateJavaFromWsdlAction$1/-1920.0.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1585580972689" />
+    <state x="3902" y="627" key="#com.intellij.ws.actions.GenerateJavaFromWsdlAction$1/0.0.1920.1020/2880.0.2520.1575@2880.0.2520.1575" timestamp="1582023509314" />
+    <state x="3902" y="627" key="#com.intellij.ws.actions.GenerateJavaFromWsdlDialog" timestamp="1582021860696">
+      <screen x="2880" y="0" width="2520" height="1575" />
+    </state>
+    <state x="3902" y="627" key="#com.intellij.ws.actions.GenerateJavaFromWsdlDialog/0.0.1920.1020/2880.0.2520.1575@2880.0.2520.1575" timestamp="1582021860696" />
+    <state x="4088" y="637" key="#com.intellij.ws.actions.GenerateWsdlFromJavaDialog" timestamp="1582023499414">
+      <screen x="2880" y="0" width="2520" height="1575" />
+    </state>
+    <state x="4088" y="637" key="#com.intellij.ws.actions.GenerateWsdlFromJavaDialog/0.0.1920.1020/2880.0.2520.1575@2880.0.2520.1575" timestamp="1582023499414" />
+    <state x="824" y="458" key="#com.intellij.ws.actions.ShowDeployedWebSevicesDialog" timestamp="1585061064693">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="824" y="458" key="#com.intellij.ws.actions.ShowDeployedWebSevicesDialog/-1920.0.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1585061064693" />
+    <state x="478" y="150" key="CommitChangelistDialog2" timestamp="1585567650905">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="478" y="150" key="CommitChangelistDialog2/-1920.0.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1585567650905" />
+    <state x="3507" y="227" key="CommitChangelistDialog2/0.0.1920.1020/2880.0.2520.1575@2880.0.2520.1575" timestamp="1582022130374" />
+    <state x="478" y="0" key="CommitChangelistDialog2/0.0.1920.1020@0.0.1920.1020" timestamp="1583767362760" />
+    <state x="707" y="234" key="DetectedRootsChooserDialog" timestamp="1583931811949">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="707" y="234" key="DetectedRootsChooserDialog/-1920.0.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1583931811949" />
+    <state x="822" y="279" key="FileChooserDialogImpl" timestamp="1585578949798">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="822" y="279" key="FileChooserDialogImpl/-1920.0.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1585578949798" />
+    <state x="739" y="241" key="FileChooserDialogImpl/0.0.1920.1020@0.0.1920.1020" timestamp="1583763660790" />
+    <state width="1876" height="275" key="GridCell.Tab.0.bottom" timestamp="1585582599399">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="275" key="GridCell.Tab.0.bottom/-1920.0.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1585582599399" />
+    <state width="1685" height="421" key="GridCell.Tab.0.bottom/0.0.1920.1020/2880.0.2520.1575@2880.0.2520.1575" timestamp="1582023561135" />
+    <state width="1852" height="237" key="GridCell.Tab.0.bottom/0.0.1920.1020@0.0.1920.1020" timestamp="1583771130132" />
+    <state width="1876" height="275" key="GridCell.Tab.0.center" timestamp="1585582599399">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="275" key="GridCell.Tab.0.center/-1920.0.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1585582599399" />
+    <state width="1685" height="421" key="GridCell.Tab.0.center/0.0.1920.1020/2880.0.2520.1575@2880.0.2520.1575" timestamp="1582023561134" />
+    <state width="1852" height="237" key="GridCell.Tab.0.center/0.0.1920.1020@0.0.1920.1020" timestamp="1583771130132" />
+    <state width="1876" height="275" key="GridCell.Tab.0.left" timestamp="1585582599399">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="275" key="GridCell.Tab.0.left/-1920.0.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1585582599399" />
+    <state width="1685" height="421" key="GridCell.Tab.0.left/0.0.1920.1020/2880.0.2520.1575@2880.0.2520.1575" timestamp="1582023561134" />
+    <state width="1852" height="237" key="GridCell.Tab.0.left/0.0.1920.1020@0.0.1920.1020" timestamp="1583771130132" />
+    <state width="1876" height="275" key="GridCell.Tab.0.right" timestamp="1585582599399">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1876" height="275" key="GridCell.Tab.0.right/-1920.0.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1585582599399" />
+    <state width="1685" height="421" key="GridCell.Tab.0.right/0.0.1920.1020/2880.0.2520.1575@2880.0.2520.1575" timestamp="1582023561134" />
+    <state width="1852" height="237" key="GridCell.Tab.0.right/0.0.1920.1020@0.0.1920.1020" timestamp="1583771130132" />
+    <state width="1265" height="237" key="GridCell.Tab.1.bottom" timestamp="1583771130132">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state width="1292" height="276" key="GridCell.Tab.1.bottom/-1920.0.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1582906964542" />
+    <state width="1685" height="421" key="GridCell.Tab.1.bottom/0.0.1920.1020/2880.0.2520.1575@2880.0.2520.1575" timestamp="1582023561135" />
+    <state width="1265" height="237" key="GridCell.Tab.1.bottom/0.0.1920.1020@0.0.1920.1020" timestamp="1583771130132" />
+    <state width="1265" height="237" key="GridCell.Tab.1.center" timestamp="1583771130132">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state width="1292" height="276" key="GridCell.Tab.1.center/-1920.0.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1582906964542" />
+    <state width="1685" height="421" key="GridCell.Tab.1.center/0.0.1920.1020/2880.0.2520.1575@2880.0.2520.1575" timestamp="1582023561135" />
+    <state width="1265" height="237" key="GridCell.Tab.1.center/0.0.1920.1020@0.0.1920.1020" timestamp="1583771130132" />
+    <state width="1265" height="237" key="GridCell.Tab.1.left" timestamp="1583771130132">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state width="1292" height="276" key="GridCell.Tab.1.left/-1920.0.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1582906964542" />
+    <state width="1685" height="421" key="GridCell.Tab.1.left/0.0.1920.1020/2880.0.2520.1575@2880.0.2520.1575" timestamp="1582023561135" />
+    <state width="1265" height="237" key="GridCell.Tab.1.left/0.0.1920.1020@0.0.1920.1020" timestamp="1583771130132" />
+    <state width="1265" height="237" key="GridCell.Tab.1.right" timestamp="1583771130132">
+      <screen x="0" y="0" width="1920" height="1020" />
+    </state>
+    <state width="1292" height="276" key="GridCell.Tab.1.right/-1920.0.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1582906964542" />
+    <state width="1685" height="421" key="GridCell.Tab.1.right/0.0.1920.1020/2880.0.2520.1575@2880.0.2520.1575" timestamp="1582023561135" />
+    <state width="1265" height="237" key="GridCell.Tab.1.right/0.0.1920.1020@0.0.1920.1020" timestamp="1583771130132" />
+    <state x="540" y="253" key="IDE.errors.dialog" timestamp="1585064253172">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="540" y="253" key="IDE.errors.dialog/-1920.0.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1585064253172" />
+    <state x="440" y="93" key="SettingsEditor" timestamp="1585578960774">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="93" key="SettingsEditor/-1920.0.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1585578960774" />
+    <state x="362" y="0" key="SettingsEditor/0.0.1920.1020@0.0.1920.1020" timestamp="1583768092226" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1585580928093">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/-1920.0.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1585580928093" />
+    <state x="494" y="254" key="Vcs.Push.Dialog.v2" timestamp="1585567658753">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="494" y="254" key="Vcs.Push.Dialog.v2/-1920.0.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1585567658753" />
+    <state x="3529" y="385" key="Vcs.Push.Dialog.v2/0.0.1920.1020/2880.0.2520.1575@2880.0.2520.1575" timestamp="1582022139342" />
+    <state x="494" y="216" key="Vcs.Push.Dialog.v2/0.0.1920.1020@0.0.1920.1020" timestamp="1583767370149" />
+    <state x="664" y="412" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1585066916744">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="664" y="412" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/-1920.0.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1585066916744" />
+    <state x="769" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585567618483">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="435" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1585567618483" />
+    <state x="342" y="101" key="new project wizard" timestamp="1585064008379">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="101" key="new project wizard/-1920.0.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1585064008379" />
+    <state x="616" y="235" key="run.anything.popup" timestamp="1582800663194">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="235" key="run.anything.popup/-1920.0.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1582800663194" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1585557224424">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1280.680/0.0.1920.1040@0.0.1920.1040" timestamp="1585557224424" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Client_JSP$Main.ic" NAME="Main Coverage Results" MODIFIED="1583769892250" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>train.*</FILTER>
+    </SUITE>
+  </component>
+</project>

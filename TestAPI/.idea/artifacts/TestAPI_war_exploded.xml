@@ -7,6 +7,9 @@
         <element id="directory" name="classes">
           <element id="module-output" name="TestAPI" />
         </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="org.apache.taglibs:taglibs-standard-jstlel:1.2.5" />
+        </element>
       </element>
     </root>
   </artifact>

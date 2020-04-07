@@ -10,7 +10,7 @@ import java.text.DecimalFormat;
 
 @Path("/calcul")
 public class CalculPrix {
-    private int prixkm = 5; //prix au km en €
+    private int prixkm = 5; //prix au km  en €
     private double dollar = 1.1;
     private double francsuisse = 1.06;
     private double bitcoin = 0.00012;

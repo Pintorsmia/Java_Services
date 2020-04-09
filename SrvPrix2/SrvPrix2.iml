@@ -11,9 +11,6 @@
         </webroots>
       </configuration>
     </facet>
-    <facet type="app-engine-standard" name="Google App Engine">
-      <configuration />
-    </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
@@ -23,10 +20,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="JBoss 18.0.1.Final" level="application_server_libraries" />
-    <orderEntry type="library" name="Maven: com.google.endpoints:endpoints-framework:Release" level="project" />
-    <orderEntry type="library" name="Maven: javax.servlet:servlet-api:2.5" level="project" />
-    <orderEntry type="library" name="Maven: javax.servlet:jstl:1.2" level="project" />
-    <orderEntry type="library" name="Maven: com.google.appengine:appengine-api-1.0-sdk:Release" level="project" />
     <orderEntry type="library" name="javax.ws.rs-api-2.0" level="project" />
   </component>
 </module>

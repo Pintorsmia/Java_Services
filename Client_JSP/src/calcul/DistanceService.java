@@ -17,7 +17,7 @@ import javax.xml.ws.WebServiceFeature;
  * Generated source version: 2.2
  * 
  */
-@WebServiceClient(name = "DistanceService", targetNamespace = "http://calcul/", wsdlLocation = "https://distance-projetusmb.appspot.com/services/Distance?wsdl")
+@WebServiceClient(name = "DistanceService", targetNamespace = "http://calcul/", wsdlLocation = "https://bourget.herokuapp.com/services/Distance?wsdl")
 public class DistanceService
     extends Service
 {
@@ -30,7 +30,7 @@ public class DistanceService
         URL url = null;
         WebServiceException e = null;
         try {
-            url = new URL("https://distance-projetusmb.appspot.com/services/Distance?wsdl");
+            url = new URL("https://bourget.herokuapp.com/services/Distance?wsdl");
         } catch (MalformedURLException ex) {
             e = new WebServiceException(ex);
         }

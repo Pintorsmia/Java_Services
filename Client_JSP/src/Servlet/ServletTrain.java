@@ -55,7 +55,7 @@ public class ServletTrain extends HttpServlet {
         out.print("Resultat = "+df.format((double) distance)+" km");
 
         //Requetes REST vers mon services de calcul des prix
-
+/*
         if (distance !=0) {
 
             StringBuilder SB = new StringBuilder();
@@ -75,7 +75,7 @@ public class ServletTrain extends HttpServlet {
 
         }
 
-
+*/
         //Partie recuperation des trajets
         //On recupere les UIC des 2 villes
         int UICA = this.getUIC(villeDpt);
